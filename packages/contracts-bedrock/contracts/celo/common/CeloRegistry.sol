@@ -9,7 +9,7 @@ import "./Initializable.sol";
 /**
  * @title Routes identifiers to addresses.
  */
-contract Registry is IRegistry, Ownable, Initializable {
+contract CeloRegistry is IRegistry, Ownable, Initializable {
   using SafeMath for uint256;
 
   mapping(bytes32 => address) public registry;
